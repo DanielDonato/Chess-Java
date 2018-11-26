@@ -1,7 +1,5 @@
 package com.danieldonato.application;
 
-import com.danieldonato.boardgame.Board;
-import com.danieldonato.boardgame.Position;
 import com.danieldonato.chess.ChessMatch;
 
 public class Program {
