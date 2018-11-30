@@ -1,6 +1,8 @@
 package com.danieldonato.chess;
 
-public class ChessException extends RuntimeException {
+import com.danieldonato.boardgame.BoardException;
+
+public class ChessException extends BoardException {
 
 	private static final long serialVersionUID = 1L;
 	
