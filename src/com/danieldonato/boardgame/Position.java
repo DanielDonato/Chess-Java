@@ -1,12 +1,11 @@
 package com.danieldonato.boardgame;
 
 public class Position {
-	
+
 	private int row;
 	private int column;
 	
 	public Position(int row, int column) {
-		super();
 		this.row = row;
 		this.column = column;
 	}
@@ -31,13 +30,9 @@ public class Position {
 		this.row = row;
 		this.column = column;
 	}
-
+	
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append(row);
-		builder.append(", ");
-		builder.append(column);
-		return builder.toString();
+		return row + ", " + column;
 	}
 }
